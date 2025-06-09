@@ -1,2 +1,16 @@
 # to start new project => django-admin startproject <Project Name>
+
 # to start new application => python manage.py startapp <app name>
+
+# to make migration => python manage.py makemigrations ==> 
+
+is used to create new migration files based on the changes you've made to your Django models (in models.py files). These migration files are used to apply those changes to your database schema.
+
+🔧 What does it do?
+It detects changes (like adding a new model, modifying a field, deleting a model, etc.) in your Django models.
+
+It then generates migration scripts (Python files inside the migrations/ folder of your app) that describe how to update the database to match the current model structure.
+
+
+# makemigrations	==> Creates migration files from model changes
+# migrate	==>  Applies those migrations to the database
