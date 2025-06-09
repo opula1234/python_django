@@ -1,0 +1,2 @@
+# to start new project => django-admin startproject <Project Name>
+# to start new application => python manage.py startapp <app name>
